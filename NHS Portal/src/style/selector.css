@@ -1,0 +1,112 @@
+#initialize_selector {
+    position: absolute;
+    left: calc(50% - 450px);
+    top: 60px;
+}
+
+#initialize_selector table {
+    border-spacing: 0;
+    width: 900px;
+}
+
+#initialize_selector table th {
+    width: 300px;
+    padding-bottom: 10px;
+    color: #344A5F ;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 2px solid #344A5F;
+}
+
+#initialize_selector table td {
+    vertical-align: top;
+}
+
+#initialize_selector button {
+    width: 280px;
+    min-height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    background-color: #344A5F;
+    color: white;
+    border: none;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+//#initialize_selector button:hover {
+  //  background-color: #67809F;
+    //cursor: pointer;
+//}
+
+#selector_footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    min-height: 100px;
+}
+
+#selector_footer table {
+    width: 100%;
+    border: 0;
+    margin: 0;
+    border-top: 2px solid #34495E;
+    position: relative;
+    z-index:1;
+}
+#selector_footer_table td {
+    vertical-align: top;
+    width: 25%;
+    padding: 10px;
+    position: relative;
+    z-index:1;
+
+}
+#selector_footer_table button {
+    width: 150px;
+    margin-left: calc(30% - 150px);
+    margin-right: calc(30% - 150px);
+    height: 40px;
+    margin-top: 10px;
+    font-size: 14px;
+    background-color: #34495E;
+    color: white;
+    border: none;
+    -webkit-borderradius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    position: relative;
+    z-index:1;
+}
+
+#selector_footer_table button:hover {
+    background-color: #67809F;
+    cursor: pointer;
+    position: relative;
+    z-index:1;
+
+}
+
+#selector_footer_demographics {
+    width: auto;
+    height: 52px;
+    padding: 10px;
+    text-align: left;
+    text-indent: 40%;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    right: 5px;
+    background-color: #ECECEC;
+    color: #344A5F;
+    border: 1px solid #344A5F ;
+    -webkit-borderradius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    
+}
+
+.active {
+    background-color: #67809F !important;
+}

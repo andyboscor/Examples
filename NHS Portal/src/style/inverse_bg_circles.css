@@ -1,0 +1,88 @@
+body {
+    background-color: #DADFE1;
+}
+#mid_circle {
+    width: 600px;
+    height: 600px;
+    position: fixed; left: 50%; top: 50%;
+    margin-top: -300px;
+    margin-left: -300px;
+    background: #6C7A89;
+    -moz-border-radius: 300px;
+    -webkit-border-radius: 300px;
+    border-radius: 300px;
+    -webkit-filter: blur(25px);
+    -moz-filter: blur(25px);
+    -o-filter: blur(25px);
+    -ms-filter: blur(25px);
+    filter: blur(25px);
+}
+
+#left_top_circle {
+    width: 300px;
+    height: 300px;
+    position: fixed; left: 0%; top: 0%;
+    margin-top: -150px;
+    margin-left: -150px;
+    background: #6C7A89;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+
+#left_bottom_circle {
+    width: 300px;
+    height: 300px;
+    position: fixed; left: 0%; top: 100%;
+    margin-top: -150px;
+    margin-left: -150px;
+    background: #6C7A89;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+
+#right_top_circle {
+    width: 300px;
+    height: 300px;
+    position: fixed; left: 100%; top: 0%;
+    margin-top: -150px;
+    margin-left: -150px;
+    background: #6C7A89;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+
+#right_bottom_circle {
+    width: 300px;
+    height: 300px;
+    position: fixed; left: 100%; top: 100%;
+    margin-top: -150px;
+    margin-left: -150px;
+    background: #6C7A89;
+    -moz-border-radius: 150px;
+    -webkit-border-radius: 150px;
+    border-radius: 150px;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+

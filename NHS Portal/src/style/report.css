@@ -1,0 +1,81 @@
+#report_container {
+	width: 800px;
+	background-color: #ECECEC;
+	-webkit-borderradius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#report_title {
+	color: #344A5F;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+#patient_demographics {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #344A5F;
+}
+
+.patient_info {
+	font-weight: bold;
+}
+
+#input_free_text {
+	background-color: #F5F5F5;
+	width: 775px;
+	max-width: 795px;
+	height: 200px;
+	font-size: 15px;
+	padding: 10px;
+}
+
+.report_field_title {
+	color: #344A5F;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#submit_button{
+	width: 220px;
+    height: 40px;
+    font-size: 14px;
+    margin-top:15px;
+    margin-left: 290px;
+    background-color: #34495E;
+    color: #EFEFEF;
+    border: none;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+#submit_button:hover {
+    background-color: #3F556E;
+    cursor: pointer;
+}
+
+#discard_button {
+	height: 40px;
+    font-size: 14px;
+    margin-top: 15px;
+    background-color: #AAAAAA;
+    color: #EFEFEF;
+    border: none;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+#discard_button:hover {
+	background-color: #AFAFAF;
+    cursor: pointer;
+}

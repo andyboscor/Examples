@@ -1,0 +1,27 @@
+#dashboard_structure_imaging_report {
+	width: 345px;
+	height: 200px;
+	overflow: scroll;
+	text-align: justify;
+}
+
+table#dashboard_structure_imaging_table button {
+	background-color: #34495E;
+	color: #ECECEC;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: none;
+	-webkit-borderradius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+table#dashboard_structure_imaging_table button:hover {
+	background-color: #3f556e;
+}
+
+table#dashboard_structure_imaging_table td {
+	border-bottom: 1px solid #A6A6A6;
+}
